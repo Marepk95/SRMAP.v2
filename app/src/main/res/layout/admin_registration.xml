@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#97A5EAFF"
+    tools:context=".UserProfile">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        app:srcCompat="@drawable/header" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADMIN REGISTRATION"
+            android:textColor="#1B76BF"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create company information"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="#777777"
+            android:textSize="17dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Company"
+                android:textSize="16dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/companyname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:hint="Company Name"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColorHint="#c5c5c5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Admin\nPassword"
+                android:textSize="16dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="4dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/adminpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:hint="Admin Password"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColorHint="#c5c5c5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Company\nPassword"
+                android:textSize="16dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="2dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/companypassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:hint="Company Password"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColorHint="#c5c5c5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Email"
+                android:textSize="16dp"
+                android:paddingLeft="19dp"
+                android:paddingRight="19dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColorHint="#c5c5c5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Wifi IP\nAddress"
+                android:textSize="16dp"
+                android:paddingLeft="9dp"
+                android:paddingRight="9dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wifi"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:hint="Your Company wifi IP Address"
+                android:background="#1B000000"
+                android:textColorHint="#676464" />
+
+            <ImageView
+                android:id="@+id/refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/refresh" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/adminregister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:text="register" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

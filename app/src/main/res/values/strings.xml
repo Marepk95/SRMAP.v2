@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MySRMAPapp</string>
+    <string name="did_t_get_otp_resend">Did\'t get OTP? <b>Resend</b></string>
+    <string name="_60">+60</string>
+    <string name="push_the_button"><![CDATA[<-- Push the button]]></string>
+    <string name="confirm_password">Confirm Password</string>
+    <string-array name="Rank">
+        <item>LU </item>
+        <item>Kpl U </item>
+        <item>Sjn U </item>
+        <item>FSjn </item>
+        <item>PW </item>
+        <item>Lt </item>
+        <item>Kapt </item>
+        <item>Mej </item>
+        <item>Lt Kol </item>
+    </string-array>
+    <string-array name="Company">
+        <item>No 15 Skuadron</item>
+    </string-array>
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#97A5EAFF"
+    tools:context=".UserProfile">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        app:srcCompat="@drawable/header" />
+
+
+    <LinearLayout
+        android:id="@+id/adminloginpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADMIN LOGIN"
+            android:textColor="#1B76BF"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insert company details"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="#777777"
+            android:textSize="17dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Company"
+                android:textSize="16dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/companyname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:hint="Company Name"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColorHint="#c5c5c5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Email"
+                android:textSize="16dp"
+                android:paddingLeft="19dp"
+                android:paddingRight="19dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColorHint="#c5c5c5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Admin\nPassword"
+                android:textSize="16dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="4dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/adminpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:hint="Admin Password"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColorHint="#c5c5c5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/adminloginbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:text="login" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Admin not register yet?"
+                android:textColor="#000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/registernowbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Register Now!"
+                android:textStyle="bold"
+                android:textColor="#1865A3"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/adminprofilepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtcompanyname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

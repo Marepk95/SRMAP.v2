@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "685372260517",
+    "project_id": "myotp-a9e65",
+    "storage_bucket": "myotp-a9e65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685372260517:android:ef42a1f24b81a630994d4c",
+        "android_client_info": {
+          "package_name": "com.atosprojek.myotpauthentification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685372260517-2rr6afoqsqo7hhutf0km16nd1onruki9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCETMBbcO_a1BI_eqi-vUyd4hbkuRUS2y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685372260517-2rr6afoqsqo7hhutf0km16nd1onruki9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
