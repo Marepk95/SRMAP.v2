@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Rank">
+        <item>LU</item>
+        <item>LUK</item>
+        <item>Kpl U</item>
+        <item>Sjn U</item>
+        <item>FSjn U</item>
+        <item>PW U</item>
+        <item>Lt</item>
+        <item>Kapt</item>
+        <item>Mej</item>
+        <item>Lt Kol</item>
+    </string-array>
+</resources>

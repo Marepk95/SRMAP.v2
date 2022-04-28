@@ -9,36 +9,43 @@
     tools:context=".UserProfile">
 
     <ImageView
+        android:id="@+id/header_srmap"
         android:layout_width="match_parent"
-        android:layout_height="210dp"
-        app:srcCompat="@drawable/header" />
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/header"
+        android:contentDescription="@string/header" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/admin_login"
+            android:textColor="#044A81"
+            android:textStyle="bold"
+            android:textSize="23sp"/>
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/adminloginpage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="10dp"
+        android:layout_margin="10dp"
         android:gravity="center">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="ADMIN LOGIN"
-            android:textColor="#1B76BF"
-            android:textStyle="bold"
-            android:textSize="25dp"
-            android:layout_marginBottom="10dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Insert company details"
-            android:layout_marginTop="5dp"
             android:layout_marginBottom="3dp"
-            android:textColor="#777777"
-            android:textSize="17dp"/>
+            android:text="@string/insert_company_details"
+            android:textColor="#616161"
+            android:textSize="17sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -49,51 +56,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="Company"
-                android:textSize="16dp"
+                android:text="@string/company"
+                android:textSize="16sp"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                 android:textStyle="bold" />
 
-            <EditText
-                android:id="@+id/companyname"
+            <Spinner
+                android:id="@+id/spincompany"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#fff"
-                android:hint="Company Name"
-                android:textColor="#000"
-                android:textSize="16dp"
-                android:padding="10dp"
-                android:textColorHint="#c5c5c5" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="3dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:gravity="center"
-                android:text="Email"
-                android:textSize="16dp"
-                android:paddingLeft="19dp"
-                android:paddingRight="19dp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:id="@+id/email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#fff"
-                android:textColor="#000"
-                android:textSize="16dp"
-                android:hint="Email Address"
-                android:inputType="textEmailAddress"
-                android:padding="10dp"
-                android:textColorHint="#c5c5c5" />
+                android:layout_height="48dp"
+                android:textAlignment="center"
+                android:background="#fff"/>
 
         </LinearLayout>
 
@@ -106,8 +80,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Admin\nPassword"
-                android:textSize="16dp"
+                android:text="@string/admin_npassword"
+                android:textSize="16sp"
                 android:paddingLeft="3dp"
                 android:paddingRight="4dp"
                 android:textStyle="bold" />
@@ -115,14 +89,14 @@
             <EditText
                 android:id="@+id/adminpassword"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
+                android:autofillHints="password"
                 android:background="#fff"
-                android:hint="Admin Password"
+                android:hint="@string/admin_password"
                 android:inputType="textPassword"
-                android:textColor="#000"
-                android:textSize="16dp"
                 android:padding="10dp"
-                android:textColorHint="#c5c5c5" />
+                android:textColor="#000"
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -136,46 +110,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:textColor="@color/white"
-                android:text="login" />
+                android:text="@string/login"
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Admin not register yet?"
+                android:text="@string/admin_not_register_yet"
                 android:textColor="#000"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/registernowbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Register Now!"
+                android:text="@string/register_here"
                 android:textStyle="bold"
                 android:textColor="#1865A3"
-                android:textSize="16dp" />
+                android:textSize="16sp" />
 
         </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/adminprofilepage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="10dp"
-        android:gravity="center">
-
-        <TextView
-            android:id="@+id/txtcompanyname"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#000"
-            android:textSize="25dp"
-            android:layout_marginBottom="10dp"/>
 
     </LinearLayout>
 

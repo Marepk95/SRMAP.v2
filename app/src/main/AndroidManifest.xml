@@ -7,12 +7,21 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/srmapp"
+        android:label="SRMAPapp"
+        android:roundIcon="@drawable/srmapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyOTPAuthentification"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".UserGuide"
+            android:exported="true" />
+        <activity
+            android:name=".ConfirmUserRegister"
+            android:exported="true" />
+        <activity
+            android:name=".AdminManagement"
+            android:exported="true" />
         <activity
             android:name=".UserList"
             android:exported="true" />

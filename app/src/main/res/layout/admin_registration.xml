@@ -10,9 +10,29 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="210dp"
-        app:srcCompat="@drawable/header" />
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/header"
+        android:contentDescription="@string/header" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/admin_registration"
+            android:textColor="#044A81"
+            android:textSize="23sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,22 +42,12 @@
         android:gravity="center">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="ADMIN REGISTRATION"
-            android:textColor="#1B76BF"
-            android:textSize="25dp"
-            android:textStyle="bold"
-            android:layout_marginBottom="10dp"/>
-
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Create company information"
-            android:layout_marginTop="5dp"
+            android:text="@string/create_company_information"
             android:layout_marginBottom="3dp"
             android:textColor="#777777"
-            android:textSize="17dp"/>
+            android:textSize="17sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,8 +58,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="Company"
-                android:textSize="16dp"
+                android:text="@string/company"
+                android:textSize="16sp"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                 android:textStyle="bold" />
@@ -57,13 +67,14 @@
             <EditText
                 android:id="@+id/companyname"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:background="#fff"
-                android:hint="Company Name"
+                android:hint="@string/company_name"
                 android:textColor="#000"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 android:padding="10dp"
-                android:textColorHint="#c5c5c5" />
+                android:inputType="text"
+                android:autofillHints="name" />
 
         </LinearLayout>
 
@@ -76,8 +87,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Admin\nPassword"
-                android:textSize="16dp"
+                android:text="@string/admin_npassworded"
+                android:textSize="16sp"
                 android:paddingLeft="3dp"
                 android:paddingRight="4dp"
                 android:textStyle="bold" />
@@ -85,14 +96,14 @@
             <EditText
                 android:id="@+id/adminpassword"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:background="#fff"
-                android:hint="Admin Password"
+                android:hint="@string/admin_password"
                 android:inputType="textPassword"
                 android:textColor="#000"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 android:padding="10dp"
-                android:textColorHint="#c5c5c5" />
+                android:autofillHints="password" />
 
         </LinearLayout>
 
@@ -105,8 +116,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Company\nPassword"
-                android:textSize="16dp"
+                android:text="@string/company_npassword"
+                android:textSize="16sp"
                 android:paddingLeft="3dp"
                 android:paddingRight="2dp"
                 android:textStyle="bold" />
@@ -114,14 +125,14 @@
             <EditText
                 android:id="@+id/companypassword"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:background="#fff"
-                android:hint="Company Password"
+                android:hint="@string/company_password"
                 android:inputType="textPassword"
                 android:textColor="#000"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 android:padding="10dp"
-                android:textColorHint="#c5c5c5" />
+                android:autofillHints="password" />
 
         </LinearLayout>
 
@@ -134,8 +145,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="Email"
-                android:textSize="16dp"
+                android:text="@string/email"
+                android:textSize="16sp"
                 android:paddingLeft="19dp"
                 android:paddingRight="19dp"
                 android:textStyle="bold" />
@@ -143,48 +154,53 @@
             <EditText
                 android:id="@+id/email"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:background="#fff"
                 android:textColor="#000"
-                android:textSize="16dp"
-                android:hint="Email Address"
+                android:textSize="16sp"
+                android:hint="@string/email_address"
                 android:inputType="textEmailAddress"
                 android:padding="10dp"
-                android:textColorHint="#c5c5c5" />
+                android:autofillHints="emailAddress" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="3dp">
+            android:layout_marginBottom="3dp"
+            android:layout_gravity="left">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Wifi IP\nAddress"
-                android:textSize="16dp"
+                android:text="@string/wifi_ip_naddressed"
+                android:textSize="16sp"
                 android:paddingLeft="9dp"
                 android:paddingRight="9dp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/wifi"
-                android:layout_width="260dp"
-                android:layout_height="wrap_content"
-                android:textColor="#000"
-                android:textSize="16dp"
-                android:padding="10dp"
-                android:hint="Your Company wifi IP Address"
+                android:layout_width="190dp"
+                android:layout_height="48dp"
                 android:background="#1B000000"
-                android:textColorHint="#676464" />
+                android:hint="@string/refresh_your_wifi"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textColorHint="#676464"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/refresh"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/refresh" />
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/refresh"
+                android:backgroundTint="@color/colour_change"
+                android:contentDescription="@string/refresh" />
 
         </LinearLayout>
 
@@ -199,10 +215,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@color/white"
-                android:text="register" />
+                android:text="@string/register" />
 
         </LinearLayout>
 
-    </LinearLayout>
+    </LinearLayout></ScrollView>
 
 </LinearLayout>

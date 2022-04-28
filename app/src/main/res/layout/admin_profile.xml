@@ -10,40 +10,31 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="210dp"
-        app:srcCompat="@drawable/header" />
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/header"
+        android:contentDescription="@string/header" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="5dp"
+        android:orientation="vertical"
         android:gravity="center">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello "
+            android:text="@string/welcome"
+            android:textColor="#044A81"
             android:textStyle="bold"
-            android:textColor="#1B76BF"
-            android:textSize="30dp"/>
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/setcompname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textColor="#1B76BF"
-            android:textSize="30dp"
-            android:text="User Name"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" ! "
-            android:textStyle="bold"
-            android:textColor="#1B76BF"
-            android:textSize="30dp"/>
+            android:textColor="#044A81"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 
@@ -60,20 +51,18 @@
             android:textStyle="bold"
             android:padding="3dp"
             android:gravity="center"
-            android:text="IP Address:"
-            android:textSize="20dp"/>
+            android:text="@string/ip_address"
+            android:textSize="15sp"/>
 
         <TextView
             android:id="@+id/setipadd"
-            android:layout_width="230dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:textColor="@color/black"
-            android:text=" IP Address "
-            android:background="#884FC8BD"
             android:textStyle="bold"
             android:gravity="center"
-            android:textSize="20dp"/>
+            android:textSize="15sp"/>
 
     </LinearLayout>
 
@@ -82,70 +71,159 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:padding="10dp">
+        android:padding="6dp">
 
         <LinearLayout
-            android:layout_width="190dp"
-            android:layout_height="190dp"
+            android:id="@+id/management"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:orientation="vertical"
             android:gravity="center"
             android:padding="10dp"
-            android:layout_marginRight="5dp"
-            android:background="#EE4FC8BD">
+            android:layout_marginRight="10dp"
+            android:background="#EE4FC8BD"
+            android:backgroundTint="@color/colour_change">
 
             <ImageButton
-                android:id="@+id/management"
-                android:layout_width="139dp"
-                android:layout_height="133dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:background="@drawable/management"
-                android:backgroundTint="@color/colour_change"/>
+                android:backgroundTint="@color/white"
+                android:contentDescription="@string/admin_setting" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MANAGEMENT"
+                android:text="@string/setting"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"
                 android:layout_marginTop="5dp"
-                android:textSize="25dp"/>
+                android:textSize="17sp"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="190dp"
-            android:layout_height="190dp"
+            android:id="@+id/attendance"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:orientation="vertical"
             android:gravity="center"
             android:padding="10dp"
-            android:layout_marginLeft="5dp"
-            android:background="#1B76BF">
+            android:layout_marginLeft="10dp"
+            android:background="#1B76BF"
+            android:backgroundTint="@color/colour_change2">
 
             <ImageButton
-                android:id="@+id/attendance"
-                android:layout_width="120dp"
-                android:layout_height="133dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:background="@drawable/attendance"
-                android:backgroundTint="@color/colour_change2"/>
+                android:backgroundTint="@color/white"
+                android:contentDescription="@string/att_list" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ATTENDANCE"
+                android:text="@string/attendance"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"
                 android:layout_marginTop="5dp"
-                android:textSize="25dp"/>
+                android:textSize="17sp"/>
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/logout"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textColor="@color/white"
-        android:text="logout" />
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update_company_s_wifi_ip_address"
+            android:textColor="#777777"
+            android:gravity="center"
+            android:textSize="17sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/wifi_ip_naddress"
+                android:textSize="16sp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wifi"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:background="#1B000000"
+                android:hint="@string/refresh_your_wifi"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textColorHint="#676464"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/refresh"
+                android:layout_marginLeft="3dp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/refresh"
+                android:backgroundTint="@color/colour_change2"
+                android:contentDescription="@string/refresh" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/updateip"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:text="@string/update" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_out"
+                android:padding="1dp"
+                android:textStyle="bold"
+                android:textColor="#1865A3"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>

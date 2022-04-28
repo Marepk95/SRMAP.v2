@@ -1,21 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MySRMAPapp</string>
-    <string name="did_t_get_otp_resend">Did\'t get OTP? <b>Resend</b></string>
-    <string name="_60">+60</string>
-    <string name="push_the_button"><![CDATA[<-- Push the button]]></string>
-    <string name="confirm_password">Confirm Password</string>
-    <string-array name="Rank">
-        <item>LU </item>
-        <item>Kpl U </item>
-        <item>Sjn U </item>
-        <item>FSjn </item>
-        <item>PW </item>
-        <item>Lt </item>
-        <item>Kapt </item>
-        <item>Mej </item>
-        <item>Lt Kol </item>
-    </string-array>
-    <string-array name="Company">
-        <item>No 15 Skuadron</item>
-    </string-array>
+    <string name="yellow">Yellow</string>
+    <string name="app_name" />
+    <string name="apps_head">header srmap</string>
+    <string name="employee_signup">Employee SignUp</string>
+    <string name="enter_your_company_details">Enter your company details</string>
+    <string name="password">password</string>
+    <string name="passworded">Password</string>
+    <string name="companei">company</string>
+    <string name="rank">Rank</string>
+    <string name="ranked">rank</string>
+    <string name="named">name</string>
+    <string name="employee_full_name">Employee Full Name</string>
+    <string name="enter_your_informations">Enter your informations</string>
+    <string name="userid">userid</string>
+    <string name="user_id">User ID</string>
+    <string name="employee_id_service_number">Employee ID / Service Number</string>
+    <string name="phone">phone</string>
+    <string name="phoned">Phone</string>
+    <string name="_01xxxxxxxxx">01XXXXXXXXX</string>
+    <string name="sign_up">sign up</string>
+    <string name="admin_login">ADMIN LOGIN</string>
+    <string name="insert_company_details">Insert company details</string>
+    <string name="admin_npassword">Admin\nPassword</string>
+    <string name="login">login</string>
+    <string name="admin_not_register_yet">Admin not register yet?</string>
+    <string name="register_now">Register Now!</string>
+    <string name="header">Header</string>
+    <string name="log_out">Log Out</string>
+    <string name="hello">Hello</string>
+    <string name="user_name">User Name</string>
+    <string name="w">!</string>
+    <string name="ip_address">IP Address:</string>
+    <string name="admin_setting">admin_setting</string>
+    <string name="setting">SETTING</string>
+    <string name="att_list">att_list</string>
+    <string name="attendance">ATTENDANCE</string>
+    <string name="update_company_s_wifi_ip_address">Update company\'s wifi IP address</string>
+    <string name="wifi_ip_naddress">Wifi IP\nAddress</string>
+    <string name="refresh">refresh</string>
+    <string name="clear">clear</string>
+    <string name="admin_npassworded">Admin\nPassword</string>
+    <string name="company_name">Company Name</string>
+    <string name="company">Company</string>
+    <string name="refresh_your_ip_address"><![CDATA[Refresh your IP address —>]]></string>
+    <string name="wifi_ip_naddressed">Wifi IP\nAddress</string>
+    <string name="email_address">Email Address</string>
+    <string name="email">Email</string>
+    <string name="company_password">Company Password</string>
+    <string name="company_npassword">Company\nPassword</string>
+    <string name="admin_password">Admin Password</string>
+    <string name="create_company_information">Create company information</string>
+    <string name="admin_registration">ADMIN REGISTRATION</string>
+    <string name="admin_management">ADMIN MANAGEMENT</string>
+    <string name="new_npassword">New\nPassword</string>
+    <string name="new_admin_password">New Admin Password</string>
+    <string name="change_admin_password">Change admin password</string>
+    <string name="new_npassworded">New\nPassword</string>
+    <string name="new_company_password">New Company Password</string>
+    <string name="update">update</string>
+    <string name="admin">admin</string>
+    <string name="employee">EMPLOYEE</string>
+    <string name="tick">tick</string>
+    <string name="updated">Updated !</string>
+    <string name="company_s_wifi_ip_address_had_been_successfully_changed">Company\'s wifi IP Address had been successfully changed.</string>
+    <string name="registered">Registered !</string>
+    <string name="your_registration_had_been_saved_on_this_device_any_inquiry_on_registration_changes_or_device_change_please_consult_with_your_administrator">Your registration had been saved on this device. Any inquiry on registration changes or device change, please consult with your administrator.</string>
+    <string name="successfully_sent">Successfully Sent !</string>
+    <string name="your_reason_had_been_send_to_your_administrator">Your reason had been send to your administrator.</string>
+    <string name="reject">reject</string>
+    <string name="not_register">Not Register !</string>
+    <string name="please_proceed_for_the_registration">Please proceed for the registration.</string>
+    <string name="register">register</string>
+    <string name="successfully_attended">Successfully Attended !</string>
+    <string name="your_attendance_had_been_send_to_your_administrator">Your attendance had been send to your administrator.</string>
+    <string name="back">back</string>
+    <string name="attendance_list">ATTENDANCE LIST</string>
+    <string name="id_no">ID No :</string>
+    <string name="name">Name</string>
+    <string name="phoneed">Phone:</string>
+    <string name="att">Att</string>
+    <string name="welcome">Welcome</string>
+    <string name="check_attendance">CHECK ATTENDANCE</string>
+    <string name="you_are_attend">You are attend !</string>
+    <string name="why">Why?</string>
+    <string name="you_are_not_attend">You are not attend !</string>
+    <string name="send">send</string>
+    <string name="admined">ADMIN</string>
+    <string name="datetime">datetime</string>
+    <string name="updatedd">Updated:</string>
+    <string name="your_attendance_has_been_updated_and_sent_to_your_administrator">Your attendance has been updated and sent to your administrator.</string>
+    <string name="updateded">Updated:</string>
+    <string name="attended">Attended!</string>
+    <string name="absent">Absent!</string>
+    <string name="on">on</string>
+    <string name="check_in">Check In</string>
+    <string name="check_out">Check Out:</string>
+    <string name="time_in">Time In:</string>
+    <string name="time_out">Time Out:</string>
+    <string name="time_inn">Time In</string>
+    <string name="time_outt">Time Out</string>
+    <string name="you_are_absent">You are absent!</string>
+    <string name="employee_position">Employee Position</string>
+    <string name="ranky">Rank :</string>
+    <string name="refresh_your_wifi">Refresh your wifi</string>
+    <string name="attendanced">Attendance</string>
+    <string name="updaterd">Updated!</string>
+    <string name="welcome_to_srmap">Welcome to SRMAP</string>
+    <string name="attendance_apps_for_your_company">Attendance Apps For Your Company</string>
+    <string name="employee_registration">Employee Registration</string>
+    <string name="register_here">Register Here</string>
+    <string name="your_attendance_had_been_successfully_sent_to_your_administrator">Your attendance had been successfully sent to your administrator.</string>
+    <string name="register_employee">Register Employee</string>
+    <string name="employee_guidance">Employee Guidance</string>
+    <string name="clear_data">Clear Data</string>
 </resources>

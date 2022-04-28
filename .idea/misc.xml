@@ -3,22 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18859649122807018" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/drawable/btn_background_success.xml" value="0.20277777777777778" />
         <entry key="..\:/MyOTPAuthentification/app/src/main/res/drawable/colour_change.xml" value="0.3828125" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18859649122807018" />
         <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/activity_admin.xml" value="0.36666666666666664" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/activity_confirm_user_register.xml" value="0.3087719298245614" />
         <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
         <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/activity_login_admin.xml" value="0.36666666666666664" />
         <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/activity_profile.xml" value="0.25" />
         <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/activity_register.xml" value="0.35260416666666666" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/activity_user_guide.xml" value="0.3087719298245614" />
         <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/admin_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/admin_management.xml" value="0.3087719298245614" />
         <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/admin_profile.xml" value="0.36666666666666664" />
         <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/admin_registration.xml" value="0.36666666666666664" />
-        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/item.xml" value="0.5" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/item.xml" value="0.33" />
         <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/list_item.xml" value="0.3572916666666667" />
-        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/main_activity.xml" value="0.36666666666666664" />
-        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/user_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/main_activity.xml" value="0.33" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/my_admin_change_ipaddress.xml" value="0.3087719298245614" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/my_employee_register.xml" value="0.3087719298245614" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/my_failed_dialog.xml" value="0.3078947368421053" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/my_not_register.xml" value="0.3087719298245614" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/my_sucess_dialog.xml" value="0.2675925925925926" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/user_list.xml" value="0.18" />
         <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/user_profile.xml" value="0.36666666666666664" />
-        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/user_signup.xml" value="0.36666666666666664" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/layout/user_signup.xml" value="0.2906666666666667" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18859649122807018" />
+        <entry key="..\:/MyOTPAuthentification/app/src/main/res/mipmap-anydpi-v26/ic_launcherr.png.xml" value="0.18859649122807018" />
       </map>
     </option>
   </component>
